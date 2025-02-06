@@ -69,20 +69,22 @@
 //     }
 // }
 // f(array)
+
+
 // #bovDJDTIjt
 // - створити функцію яка приймає масив об'єктів з наступними полями id,name,age , та виводить їх в документ. Для кожного об'єкту окремий блок.
 
-// function f(id, name, age) {
-//     let user = {
-//         id : id,
-//         name: name,
-//         age: age
-//     }
-//     document.write(`<div>${user.id}</div>`)
-//     document.write(`<div>${user.name}</div>`)
-//     document.write(`<div>${user.age}</div>`)
-// }
-// f(1,'Vlad',30)
+function f(id, name, age) {
+    let user = {
+        id : id,
+        name: name,
+        age: age
+    }
+    document.write(`<div>${user.id} - ${user.name} - ${user.age}</div>`)
+}
+f(1,'Ivan',31)
+f(2,'Vika',23)
+f(3,'Ania',18)
 
 //     #pghbnSB
 // - створити функцію яка повертає найменьше число з масиву
