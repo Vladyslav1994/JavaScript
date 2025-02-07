@@ -74,21 +74,33 @@
 // #bovDJDTIjt
 // - створити функцію яка приймає масив об'єктів з наступними полями id,name,age , та виводить їх в документ. Для кожного об'єкту окремий блок.
 
-function f(id, name, age) {
-    let user = {
-        id : id,
-        name: name,
-        age: age
-    }
-    document.write(`<div>${user.id} - ${user.name} - ${user.age}</div>`)
-}
-f(1,'Ivan',31)
-f(2,'Vika',23)
-f(3,'Ania',18)
+// function f(id, name, age) {
+//     let user = {
+//         id : id,
+//         name: name,
+//         age: age
+//     }
+//     document.write(`<div>${user.id} - ${user.name} - ${user.age}</div>`)
+// }
+// f(1,'Ivan',31)
+// f(2,'Vika',23)
+// f(3,'Ania',18)
 
 //     #pghbnSB
 // - створити функцію яка повертає найменьше число з масиву
+let arr = [3,5,8,11,2,4]
 
+function f(array) {
+    let number = array[0];
+    for (let arr of array) {
+        if (arr < number) {
+            number = arr
+        }
+    }
+    return number
+}
+
+console.log(f(arr))
 // #EKRNVPM
 // - створити функцію sum(arr) яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад sum([1,2,10]) //->13
 // #kpsbSQCt2Lf
