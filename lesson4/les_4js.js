@@ -131,17 +131,19 @@
 // Приклад  swap([11,22,33,44],0,1) //=> [22,11,33,44]
 // let array = [11,22,33,44]
 
+
+
 // #mkGDenYnNjn
 // - Написати функцію обміну валюти exchange(sumUAH,currencyValues,exchangeCurrency)
 // Приклад exchange(10000,[{currency:'USD',value:25},{currency:'EUR',value:42}],'USD') // => 400
 
-function usd(sum) {
-    return sum / 25
-}
-function eur(sum) {
-    return sum / 42
-}
-let value_usd = usd(500)
-console.log(value_usd)
-let value_eur = eur(500)
-console.log(value_eur)
+// function usd(sum) {
+//     return sum / 25
+// }
+// function eur(sum) {
+//     return sum / 42
+// }
+// let value_usd = usd(500)
+// console.log(value_usd)
+// let value_eur = eur(500)
+// console.log(value_eur)
