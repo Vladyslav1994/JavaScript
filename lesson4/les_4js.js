@@ -131,6 +131,19 @@
 // Приклад  swap([11,22,33,44],0,1) //=> [22,11,33,44]
 // let array = [11,22,33,44]
 
+// let a = [11,22,33,44]
+
+
+// зробив не самб дивився як розвязати
+
+// function swap(arr, index1,index2) {
+//     let arr1 = arr[index1];
+//     arr[index1] = arr[index2];
+//     arr[index2] = arr1;
+//     return arr;
+// }
+// let x = swap([11,22,33,44], 1,3)
+// console.log(x)
 
 
 // #mkGDenYnNjn
