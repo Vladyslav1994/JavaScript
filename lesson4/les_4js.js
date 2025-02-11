@@ -142,7 +142,7 @@
 //     arr[index2] = arr1;
 //     return arr;
 // }
-// let x = swap([11,22,33,44], 1,3)
+// let x = swap([11,22,33,44], 3,3)
 // console.log(x)
 
 
