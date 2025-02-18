@@ -1,30 +1,28 @@
 // #XjJuucOMR0
 // - Створити функцію конструктор для об'єктів User з полями id, name, surname , email, phone
 // створити пустий масив, наповнити його 10 об'єктами new User(....)
-let users = []
-class User {
-    constructor(id, name, surname, email, phone) {
-        this.id = id;
-        this.name = name;
-        this.surname = surname;
-        this.email = email;
-        this.phone = phone;
-    }
-}
-
-// let user1 = new User(1, 'anton', 'bereza', 'fjaskfnaj@dsakkda', 1321321)
-// console.log(user1);
-users.push(new User(1, 'anton', 'bereza', 'fjaskfnaj@dsakkda', 1321321));
-users.push(new User(2, 'masha', 'komso', 'fjaskfnaj@dsakkda', 1321321));
-users.push(new User(3, 'ania', 'ostro', 'fjaskfnaj@dsakkda', 1321321));
-users.push(new User(4, 'katia', 'isko', 'fjaskfnaj@dsakkda', 1321321));
-users.push(new User(5, 'lila', 'lestenko', 'fjaskfnaj@dsakkda', 1321321));
-users.push(new User(6, 'vitia', 'pustowski', 'fjaskfnaj@dsakkda', 1321321));
-users.push(new User(7, 'petya', 'prusko', 'fjaskfnaj@dsakkda', 1321321));
-users.push(new User(8, 'andrew', 'mosko', 'fjaskfnaj@dsakkda', 1321321));
-users.push(new User(9, 'sasha', 'fesko', 'fjaskfnaj@dsakkda', 1321321));
-users.push(new User(10, 'nastya', 'arko', 'fjaskfnaj@dsakkda', 1321321));
-
+// let users = []
+// class User {
+//     constructor(id, name, surname, email, phone) {
+//         this.id = id;
+//         this.name = name;
+//         this.surname = surname;
+//         this.email = email;
+//         this.phone = phone;
+//     }
+// }
+//
+// users.push(new User(1, 'anton', 'bereza', 'fjaskfnaj@dsakkda', 1321321));
+// users.push(new User(2, 'masha', 'komso', 'fjaskfnaj@dsakkda', 1321321));
+// users.push(new User(3, 'ania', 'ostro', 'fjaskfnaj@dsakkda', 1321321));
+// users.push(new User(4, 'katia', 'isko', 'fjaskfnaj@dsakkda', 1321321));
+// users.push(new User(5, 'lila', 'lestenko', 'fjaskfnaj@dsakkda', 1321321));
+// users.push(new User(6, 'vitia', 'pustowski', 'fjaskfnaj@dsakkda', 1321321));
+// users.push(new User(7, 'petya', 'prusko', 'fjaskfnaj@dsakkda', 1321321));
+// users.push(new User(8, 'andrew', 'mosko', 'fjaskfnaj@dsakkda', 1321321));
+// users.push(new User(9, 'sasha', 'fesko', 'fjaskfnaj@dsakkda', 1321321));
+// users.push(new User(10, 'nastya', 'arko', 'fjaskfnaj@dsakkda', 1321321));
+//
 // console.log(users);
 //
 // #2ikXsE2WiKZ
@@ -36,19 +34,45 @@ users.push(new User(10, 'nastya', 'arko', 'fjaskfnaj@dsakkda', 1321321));
 //
 // #pOeHKct
 // - Взяти масив з  User[] з попереднього завдання, та відсортувати його по id. по зростанню (sort)
-users.sort(function (a, b) {
-    // return a.id - b.id; зростання
-    // return b.id - a.id; зменшення
-})
-console.log(users);
+// users.sort(function (a, b) {
+//     // return a.id - b.id; зростання
+//     // return b.id - a.id; зменшення
+// })
+// console.log(users);
 //
 // #nkMXISv
 // - створити конструктор для об'єктів Client з полями id, name, surname , email, phone, order (поле є масивом зі списком товарів)
 // створити пустий масив, наповнити його 10 об'єктами Client
+// let client = [];
+// class Clients {
+//     constructor(id, name, surname, email, phone,order) {
+//         this.id = id;
+//         this.name = name;
+//         this.surname = surname;
+//         this.email = email;
+//         this.phone = phone;
+//         this.order = order;
+//     }
+// }
+// client.push(new Clients(1, 'anton', 'bereza', 'fjaskfnaj@dsakkda', 1321321,[{title:'tv',price:100}]));
+// client.push(new Clients(2, 'masha', 'komso', 'fjaskfnaj@dsakkda', 1321321, [{title:'freeze', price:200}]));
+// client.push(new Clients(3, 'ania', 'ostro', 'fjaskfnaj@dsakkda', 1321321,[{title:'oven', price:120}]));
+// client.push(new Clients(4, 'katia', 'isko', 'fjaskfnaj@dsakkda', 1321321,[{title:'plate', price:421}]));
+// client.push(new Clients(5, 'lila', 'lestenko', 'fjaskfnaj@dsakkda', 1321321,[{title:'batery', price:213}]));
+// client.push(new Clients(6, 'vitia', 'pustowski', 'fjaskfnaj@dsakkda', 1321321,[{title:'led', price:523}]));
+// client.push(new Clients(7, 'petya', 'prusko', 'fjaskfnaj@dsakkda', 1321321,[{title:'headphone', price:123}]));
+// client.push(new Clients(8, 'andrew', 'mosko', 'fjaskfnaj@dsakkda', 1321321,[{title:'phone', price:532}]));
+// client.push(new Clients(9, 'sasha', 'fesko', 'fjaskfnaj@dsakkda', 1321321,[{title:'coffee_mashine', price:342}]));
+// client.push(new Clients(10, 'nastya', 'arko', 'fjaskfnaj@dsakkda', 1321321,[{title:'ice_mashine', price:243}]));
+// console.log(client);
 //
 //
 // #8abtVjRv
 // - Взяти масив (Client [] з попереднього завдання).Відсортувати його по кількості товарів в полі order по зростанню. (sort)
+// let xxx = client.sort(function(a, b) {
+//     return a.order[0].price - b.order[0].price;
+// })
+// console.log(xxx);
 //
 //
 // #vV9a6584I5
@@ -58,6 +82,39 @@ console.log(users);
 // -- increaseMaxSpeed (newSpeed) - яка підвищує значення максимальної швидкості на значення newSpeed
 // -- changeYear (newValue) - змінює рік випуску на значення newValue
 // -- addDriver (driver) - приймає об'єкт який "водій" з довільним набором полів, і додає його в поточний об'єкт car
+// function Car(model, producer, year, max_speed,engine) {
+//     this.model = model;
+//     this.producer = producer;
+//     this.year = year;
+//     this.max_speed = max_speed;
+//     this.engine = engine;
+//     this.drive = function () {
+//         console.log(`їдемо зі швидкістю ${this.max_speed}на годину`);
+//     }
+//     this.info = function () {
+//         for (const info in this) {
+//             console.log(info, this[info]);
+//         }
+//     }
+//     this.increaseMaxSpeed = function (newSpeed) {
+//         console.log(newSpeed = max_speed + newSpeed)
+//     }
+//     this.changeYear = function (new_year) {
+//         if (new_year > year || new_year < year) {
+//             console.log(new_year);
+//         }else {
+//             console.log(year);
+//         }
+//     }
+// }
+// let bmw = new Car('BMW', 'Germany', 2025, 273,2)
+
+// bmw.drive()
+// bmw.info()
+// bmw.increaseMaxSpeed(5)
+// bmw.changeYear(1923)
+
+
 //
 //
 // #5kla3yMpgp
