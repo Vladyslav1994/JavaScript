@@ -125,6 +125,39 @@
 // -- increaseMaxSpeed (newSpeed) - яка підвищує значення максимальної швидкості на значення newSpeed
 // -- changeYear (newValue) - змінює рік випуску на значення newValue
 // -- addDriver (driver) - приймає об'єкт який "водій" з довільним набором полів, і додає його в поточний об'єкт car
+// class Car {
+//     constructor(model, producer, year, max_speed, engine) {
+//         this.model = model;
+//         this.producer = producer;
+//         this.year = year;
+//         this.max_speed = max_speed;
+//         this.engine = engine;
+//         this.drive = function () {
+//             console.log(`їдемо зі швидкістю ${this.max_speed} на голину`);
+//         }
+//         this.info = function () {
+//             for (const carElement in this) {
+//                 console.log(carElement, this[carElement]);
+//             }
+//         };
+//         this.increaseMaxSpeed = function (increaseMaxSpeed) {
+//             console.log(increaseMaxSpeed = max_speed + increaseMaxSpeed);
+//         }
+//         this.changeYear = function (new_year) {
+//             if (new_year > year || new_year < year) {
+//                 console.log(new_year);
+//             } else {
+//                 console.log(year);
+//             }
+//         }
+//     }
+// }
+
+// let bmw = new Car('BMW', 'Germany', 2025, 273, 2)
+// bmw.drive()
+// bmw.info()
+// bmw.increaseMaxSpeed(5)
+// bmw.changeYear(2034)
 //
 //
 //
