@@ -106,13 +106,17 @@
 //             console.log(year);
 //         }
 //     }
+//     this.addDriver= function (driver) {
+//         console.log(driver);
+//     }
 // }
 // let bmw = new Car('BMW', 'Germany', 2025, 273,2)
-
+//
 // bmw.drive()
 // bmw.info()
 // bmw.increaseMaxSpeed(5)
 // bmw.changeYear(1923)
+// bmw.addDriver('anton')
 
 
 //
@@ -150,6 +154,9 @@
 //                 console.log(year);
 //             }
 //         }
+//         this.addDriver= function (driver) {
+//             console.log(driver);
+//         }
 //     }
 // }
 
@@ -158,6 +165,7 @@
 // bmw.info()
 // bmw.increaseMaxSpeed(5)
 // bmw.changeYear(2034)
+// bmw.addDriver('anton')
 //
 //
 //
@@ -166,44 +174,45 @@
 // Сторити об'єкт класу "принц" за допомоги класу який має поля ім'я, вік, туфелька яку він знайшов.
 //     За допомоги циклу знайти яка попелюшка повинна бути з принцом.
 //     Додатково, знайти необхідну попелюшку за допомоги функції масиву find та відповідного колбеку
-class Popeliushka {
-    constructor(name,age,size_leg) {
-        this.name = name;
-        this.age = age;
-        this.size_leg = size_leg;
-    }
-}
-let popeliushka=[];
-popeliushka.push(new Popeliushka('ania',21,38));
-popeliushka.push(new Popeliushka('katia',19,38));
-popeliushka.push(new Popeliushka('lila',17,39));
-popeliushka.push(new Popeliushka('vika',23,39));
-popeliushka.push(new Popeliushka('sonia',22,36));
-popeliushka.push(new Popeliushka('tania',21,36));
-popeliushka.push(new Popeliushka('solomia',23,35));
-popeliushka.push(new Popeliushka('masha',21,39));
-popeliushka.push(new Popeliushka('andzela',22,37));
-popeliushka.push(new Popeliushka('polina',20,38));
-console.log(popeliushka);
-class Prince {
-    constructor(name,age,size_foot) {
-        this.name = name;
-        this.age = age;
-        this.size_foot = size_foot;
-    }
-}
-let prince = new Prince('anton',27,35);
-
-function f(popelusha) {
-    for (const popeliushkaElement of popelusha) {
-        if (popeliushkaElement.size_leg === prince.size_foot){
-            return popeliushkaElement
-        }
-    }
-}
-let xxx = f(popeliushka)
-console.log(xxx)
+// class Popeliushka {
+//     constructor(name,age,size_leg) {
+//         this.name = name;
+//         this.age = age;
+//         this.size_leg = size_leg;
+//     }
+// }
+// let popeliushka=[];
+// popeliushka.push(new Popeliushka('ania',21,38));
+// popeliushka.push(new Popeliushka('katia',19,38));
+// popeliushka.push(new Popeliushka('lila',17,39));
+// popeliushka.push(new Popeliushka('vika',23,39));
+// popeliushka.push(new Popeliushka('sonia',22,36));
+// popeliushka.push(new Popeliushka('tania',21,36));
+// popeliushka.push(new Popeliushka('solomia',23,35));
+// popeliushka.push(new Popeliushka('masha',21,39));
+// popeliushka.push(new Popeliushka('andzela',22,37));
+// popeliushka.push(new Popeliushka('polina',20,38));
+// console.log(popeliushka);
+// class Prince {
+//     constructor(name,age,size_foot) {
+//         this.name = name;
+//         this.age = age;
+//         this.size_foot = size_foot;
+//     }
+// }
+// let prince = new Prince('anton',27,35);
+//
+// function f(popelusha) {
+//     for (const popeliushkaElement of popelusha) {
+//         if (popeliushkaElement.size_leg === prince.size_foot){
+//             return popeliushkaElement
+//         }
+//     }
+// }
+// let xxx = f(popeliushka)
+// console.log(xxx)
 
 //
 // #gsKLAsNWM
 // *Через Array.prototype. створити власний foreach, filter
+
