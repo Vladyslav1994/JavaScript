@@ -1,37 +1,37 @@
 // #XjJuucOMR0
 // - Створити функцію конструктор для об'єктів User з полями id, name, surname , email, phone
 // створити пустий масив, наповнити його 10 об'єктами new User(....)
-// let users = []
-// class User {
-//     constructor(id, name, surname, email, phone) {
-//         this.id = id;
-//         this.name = name;
-//         this.surname = surname;
-//         this.email = email;
-//         this.phone = phone;
-//     }
-// }
-// //
-// users.push(new User(1, 'anton', 'bereza', 'fjaskfnaj@dsakkda', 1321321));
-// users.push(new User(2, 'masha', 'komso', 'fjaskfnaj@dsakkda', 1321321));
-// users.push(new User(3, 'ania', 'ostro', 'fjaskfnaj@dsakkda', 1321321));
-// users.push(new User(4, 'katia', 'isko', 'fjaskfnaj@dsakkda', 1321321));
-// users.push(new User(5, 'lila', 'lestenko', 'fjaskfnaj@dsakkda', 1321321));
-// users.push(new User(6, 'vitia', 'pustowski', 'fjaskfnaj@dsakkda', 1321321));
-// users.push(new User(7, 'petya', 'prusko', 'fjaskfnaj@dsakkda', 1321321));
-// users.push(new User(8, 'andrew', 'mosko', 'fjaskfnaj@dsakkda', 1321321));
-// users.push(new User(9, 'sasha', 'fesko', 'fjaskfnaj@dsakkda', 1321321));
-// users.push(new User(10, 'nastya', 'arko', 'fjaskfnaj@dsakkda', 1321321));
+let users = []
+class User {
+    constructor(id, name, surname, email, phone) {
+        this.id = id;
+        this.name = name;
+        this.surname = surname;
+        this.email = email;
+        this.phone = phone;
+    }
+}
 //
+users.push(new User(1, 'anton', 'bereza', 'fjaskfnaj@dsakkda', 1321321));
+users.push(new User(2, 'masha', 'komso', 'fjaskfnaj@dsakkda', 1321321));
+users.push(new User(3, 'ania', 'ostro', 'fjaskfnaj@dsakkda', 1321321));
+users.push(new User(4, 'katia', 'isko', 'fjaskfnaj@dsakkda', 1321321));
+users.push(new User(5, 'lila', 'lestenko', 'fjaskfnaj@dsakkda', 1321321));
+users.push(new User(6, 'vitia', 'pustowski', 'fjaskfnaj@dsakkda', 1321321));
+users.push(new User(7, 'petya', 'prusko', 'fjaskfnaj@dsakkda', 1321321));
+users.push(new User(8, 'andrew', 'mosko', 'fjaskfnaj@dsakkda', 1321321));
+users.push(new User(9, 'sasha', 'fesko', 'fjaskfnaj@dsakkda', 1321321));
+users.push(new User(10, 'nastya', 'arko', 'fjaskfnaj@dsakkda', 1321321));
+
 // console.log(users);
 //
 // #2ikXsE2WiKZ
 // - Взяти масив з  User[] з попереднього завдання, та відфільтрувати , залишивши тільки об'єкти з парними id (filter)
-// let xxx = users.filter((value) => {
-//     return value.id % 2 === 0;
-// });
-// console.log(xxx);
-//
+let xxx = users.filter((value) => {
+    return value.id % 2 === 1;
+});
+console.log(xxx);
+
 // #pOeHKct
 // - Взяти масив з  User[] з попереднього завдання, та відсортувати його по id. по зростанню (sort)
 // users.sort(function (a, b) {
