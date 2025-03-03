@@ -75,15 +75,17 @@
 
 // let divka = document.createElement('div')
 // let butt = document.createElement('button')
+// let count = localStorage.getItem('count') ? parseInt(localStorage.getItem('count')) || 0 : 0
 //
-// divka.innerText = 0
+// divka.innerText = count
 // butt.innerText = 'set'
 //
-// document.body.append(divka,butt)
+// document.body.append(count,butt)
 //
-// butt.onclick = function (e) {
-//     e.preventDefault()
-//     divka.innerText ++
+// butt.onclick = function () {
+//     count++
+//     localStorage.setItem('count', count)
+//     location.reload()
 // }
 
 // #LhSfdhM3
@@ -140,7 +142,7 @@
 //     #kUSgFqWY
 // Створити 3 інпута та кнопку. Один визначає кількість рядків, другий - кількість ячеєк, третій вмиіст ячеєк.
 //     При натисканні кнопки, вся ця інформація зчитується і формується табличка, з відповідним вмістом.
-
+//
 // let form = document.createElement("form")
 // let input_one = document.createElement("input")
 // let input_two = document.createElement("input")
@@ -156,10 +158,10 @@
 //     let ccc = +input_two.value
 //     let bbb = input_three.value
 //
-//     for (let i = 0; i <= xxx; i++) {
+//     for (let i = 0; i < xxx; i++) {
 //         let tr = document.createElement('tr')
 //         tr.innerText = xxx
-//             for (let j = 0; j <= ccc; j++) {
+//             for (let j = 0; j < ccc; j++) {
 //                 let td = document.createElement('td')
 //                 td.innerText = bbb
 //                 tr.appendChild(td)
