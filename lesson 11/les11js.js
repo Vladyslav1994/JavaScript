@@ -25,5 +25,13 @@
 //         }
 //     });
 
-#whXxOBlYS0H
-- взяти https://dummyjson.com/docs/recipes та вивести інформацію про всі рецепти. Інгредієнти повинні бути список під час відображення.
+// #whXxOBlYS0H
+// - взяти https://dummyjson.com/docs/recipes та вивести інформацію про всі рецепти. Інгредієнти повинні бути список під час відображення.
+
+    fetch('https://dummyjson.com/recipes')
+        .then(res => res.json())
+        .then(recipeObj => {
+            // console.log(recipeObj);
+            let {recipes} = recipeObj
+            console.log(recipes)
+        })
