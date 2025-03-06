@@ -31,7 +31,7 @@
     fetch('https://dummyjson.com/recipes')
         .then(res => res.json())
         .then(recipeObj => {
-            // console.log(recipeObj);
+            console.log(recipeObj);
             let {recipes} = recipeObj
             console.log(recipes)
         })
