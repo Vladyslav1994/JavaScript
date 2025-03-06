@@ -31,7 +31,32 @@
     fetch('https://dummyjson.com/recipes')
         .then(res => res.json())
         .then(recipeObj => {
-            console.log(recipeObj);
+            // console.log(recipeObj);
             let {recipes} = recipeObj
             console.log(recipes)
+            let div_main = document.createElement("div")
+            for (let recipe of recipes) {
+                let h4_main = document.createElement("h4")
+                let img_main = document.createElement("img")
+
+                for (const recipeKey in recipe) {
+                    console.log(recipeKey, recipe)
+                    let div_sec = document.createElement("div")
+
+                    div_sec.innerText = `${recipeKey} - ${recipe[recipeKey]}`
+
+                    div_main.appendChild(div_sec)
+
+                    // ingredients, instructions, tags
+                }
+
+                h4_main.innerText = `id ${recipe.id} - name ${recipe.name}`
+                img_main.src = `${recipe.image}`
+
+                div_main.append(h4_main, img_main)
+            }
+
+
+
+            document.body.appendChild(div_main)
         })
